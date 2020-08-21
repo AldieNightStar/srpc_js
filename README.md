@@ -8,17 +8,11 @@
 
 # Server
 ```js
-// Import
-const srpc = require("srpc");
-
 let server = srpc.newServer(8080, "MyPassword")
 ```
 
 # Client
 ```js
-// Import
-const srpc = require("srpc");
-
 // Can throw Erorr when name is busy or password is incorrect
 let client = await srpc.newClient("ws://localhost:8080", "MyPassword", "NAME");
 
