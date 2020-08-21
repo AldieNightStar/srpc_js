@@ -2,7 +2,7 @@
 
 # Install
 ```html
-
+<script type="application/javascript" src="https://aldienightstar.github.io/srpc_js/srpc.js"></script>
 ```
 
 # Server
