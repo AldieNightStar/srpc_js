@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="application/javascript" src="https://aldienightstar.github.io/socketer_js/wsocketer.js"></script>
+	<script type="application/javascript" src="srpc.js"></script>
+</head>
+<body>
+	<script>
+		window.addEventListener("load", async () => {
+			let client1 = await srpc.newClient("ws://localhost:8080", "123123", "NAME");
+			let client2 = await srpc.newClient("ws://localhost:8080", "123123", "NAME");
+			console.log(client1);
+		})
+	</script>
+</body>
+</html>
