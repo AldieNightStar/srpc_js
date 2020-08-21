@@ -6,11 +6,6 @@
 <script type="application/javascript" src="https://aldienightstar.github.io/srpc_js/srpc.js"></script>
 ```
 
-# Server
-```js
-let server = srpc.newServer(8080, "MyPassword")
-```
-
 # Client
 ```js
 // Can throw Erorr when name is busy or password is incorrect
